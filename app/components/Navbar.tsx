@@ -8,7 +8,7 @@ export default function Navbar() {
                     StudyFlow
                 </Link>
 
-                <div className="flex items-center gap-8">
+                <div className="flex items-center gap-8 hover:text-black ">
                     <Link href="/">Home</Link>
                     <Link href="/todo">Todo</Link>
                     <Link href="/history">History</Link>
