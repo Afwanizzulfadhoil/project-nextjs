@@ -8,11 +8,19 @@ export default function Navbar() {
                     StudyFlow
                 </Link>
 
-                <div className="flex items-center gap-8 hover:text-black ">
-                    <Link href="/">Home</Link>
-                    <Link href="/todo">Todo</Link>
-                    <Link href="/history">History</Link>
-                    <Link href="/about">About</Link>
+                <div className="flex items-center gap-8">
+                    <Link href="/" className="text-gray-600 transition-colors hover:text-blue-600">
+                        Home
+                    </Link>
+                    <Link href="/todo" className="text-gray-600 transition-colors hover:text-blue-600">
+                        Todo
+                    </Link>
+                    <Link href="/history" className="text-gray-600 transition-colors hover:text-blue-600">
+                        History
+                    </Link>
+                    <Link href="/about" className="text-gray-600 transition-colors hover:text-blue-600">
+                        About
+                    </Link>
                 </div>
 
                 <button className="rounded-lg bg-blue-600 px-4 py-2 text-white hover:bg-blue-700 transition">
